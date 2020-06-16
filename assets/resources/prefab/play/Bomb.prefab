@@ -1,0 +1,232 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Bomb",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 50,
+      "height": 60
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        639.891,
+        423.711,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 3,
+    "groupIndex": 3,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "e91510e9-1775-4803-83bd-72b43aba92a0"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": true,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "a78cekCZCtJM4iN/+tIyNoI",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "bombRadius": 50,
+    "width": 100,
+    "height": 100,
+    "score": 0,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PolygonCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": -25,
+        "y": -16.6
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 0.6,
+        "y": -29.8
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 24.8,
+        "y": -16.4
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 25.2,
+        "y": 16
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 0.3,
+        "y": 29.7
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -25.2,
+        "y": 16.3
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "2ac51kJsJdCUYGhVkgsw0xY",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "sprite_frames": [
+      {
+        "__uuid__": "78cd8502-760e-4421-a8cb-fac4ef3c9260"
+      },
+      {
+        "__uuid__": "3f5b2ca1-84bd-48b9-a26f-4d0ee598122e"
+      },
+      {
+        "__uuid__": "d0991258-4416-4129-8057-503ab8fd2eff"
+      },
+      {
+        "__uuid__": "fd000665-aea3-4599-a971-1ac631593770"
+      },
+      {
+        "__uuid__": "4f799734-3fc6-4422-a205-5727a368be65"
+      },
+      {
+        "__uuid__": "9bde097f-522c-4e4c-9883-2d31951b7fda"
+      },
+      {
+        "__uuid__": "17053623-8aac-4666-ab96-3e495d92b75b"
+      },
+      {
+        "__uuid__": "35ccfaa9-e4c7-4777-b332-7093eaf8fd36"
+      },
+      {
+        "__uuid__": "c37a5288-4cba-422f-86b5-934d8a4996e7"
+      }
+    ],
+    "duration": 0.1,
+    "loop": false,
+    "play_onload": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "6dcPDI/rhEcoIEtwU+bwwo",
+    "sync": false
+  }
+]

@@ -1,0 +1,224 @@
+[
+  {
+    "__type__": "cc.Prefab",
+    "_name": "",
+    "_objFlags": 0,
+    "_native": "",
+    "data": {
+      "__id__": 1
+    },
+    "optimizationPolicy": 0,
+    "asyncLoadAssets": false,
+    "readonly": false
+  },
+  {
+    "__type__": "cc.Node",
+    "_name": "Diamond",
+    "_objFlags": 0,
+    "_parent": null,
+    "_children": [],
+    "_active": true,
+    "_components": [
+      {
+        "__id__": 2
+      },
+      {
+        "__id__": 3
+      },
+      {
+        "__id__": 4
+      },
+      {
+        "__id__": 5
+      }
+    ],
+    "_prefab": {
+      "__id__": 6
+    },
+    "_opacity": 255,
+    "_color": {
+      "__type__": "cc.Color",
+      "r": 255,
+      "g": 255,
+      "b": 255,
+      "a": 255
+    },
+    "_contentSize": {
+      "__type__": "cc.Size",
+      "width": 20,
+      "height": 20
+    },
+    "_anchorPoint": {
+      "__type__": "cc.Vec2",
+      "x": 0.5,
+      "y": 0.5
+    },
+    "_trs": {
+      "__type__": "TypedArray",
+      "ctor": "Float64Array",
+      "array": [
+        554,
+        340,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        1,
+        1
+      ]
+    },
+    "_eulerAngles": {
+      "__type__": "cc.Vec3",
+      "x": 0,
+      "y": 0,
+      "z": 0
+    },
+    "_skewX": 0,
+    "_skewY": 0,
+    "_is3DNode": false,
+    "_groupIndex": 2,
+    "groupIndex": 2,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.Sprite",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "_materials": [
+      {
+        "__uuid__": "eca5d2f2-8ef6-41c2-bbe6-f9c79d09c432"
+      }
+    ],
+    "_srcBlendFactor": 770,
+    "_dstBlendFactor": 771,
+    "_spriteFrame": {
+      "__uuid__": "6ae27b3b-6e82-4ca3-b91d-695ca7fce3ba"
+    },
+    "_type": 0,
+    "_sizeMode": 0,
+    "_fillType": 0,
+    "_fillCenter": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "_fillStart": 0,
+    "_fillRange": 0,
+    "_isTrimmedMode": false,
+    "_atlas": null,
+    "_id": ""
+  },
+  {
+    "__type__": "9f982fE7y9Dob4eAv4mHEQT",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "score": 600,
+    "heavy": 1,
+    "_id": ""
+  },
+  {
+    "__type__": "2ac51kJsJdCUYGhVkgsw0xY",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "sprite_frames": [
+      {
+        "__uuid__": "e2e7b463-fad9-4526-8f0a-2a4132648497"
+      },
+      {
+        "__uuid__": "869786ca-b351-4fe3-9030-c01f3f816ec9"
+      },
+      {
+        "__uuid__": "4d6129db-342f-4564-a2e4-0ce51bff7118"
+      },
+      {
+        "__uuid__": "aa4e1d54-e5b8-4870-86f6-5593ccb4a9b6"
+      },
+      {
+        "__uuid__": "bd538b98-f78d-4ea8-8063-3781ae57e04a"
+      },
+      {
+        "__uuid__": "12696e9e-1d42-44b1-932d-ecdcc47aa064"
+      },
+      {
+        "__uuid__": "a968eccb-7616-4e77-9733-5da30740a54c"
+      }
+    ],
+    "duration": 0.1,
+    "loop": false,
+    "play_onload": false,
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PolygonCollider",
+    "_name": "",
+    "_objFlags": 0,
+    "node": {
+      "__id__": 1
+    },
+    "_enabled": true,
+    "tag": 0,
+    "_offset": {
+      "__type__": "cc.Vec2",
+      "x": 0,
+      "y": 0
+    },
+    "points": [
+      {
+        "__type__": "cc.Vec2",
+        "x": 0,
+        "y": -9.6
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 9.6,
+        "y": 5.7
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": 6.3,
+        "y": 9.9
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -6.4,
+        "y": 9.5
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -8.8,
+        "y": 7.3
+      },
+      {
+        "__type__": "cc.Vec2",
+        "x": -10,
+        "y": 5.7
+      }
+    ],
+    "_id": ""
+  },
+  {
+    "__type__": "cc.PrefabInfo",
+    "root": {
+      "__id__": 1
+    },
+    "asset": {
+      "__id__": 0
+    },
+    "fileId": "75fVI5A7NDF5zegodB4wH8",
+    "sync": false
+  }
+]
